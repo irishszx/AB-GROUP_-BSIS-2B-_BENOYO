@@ -1,0 +1,93 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #b892b0;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: linear-gradient(to right, #c8aac9, #e9e9e9);
+    padding:20px;
+    margin-bottom: 20px;
+    border:2px solid #030303;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+.profile-img {
+    width:2in;
+    height: 2in;
+    object-fit:cover;
+    margin-right:20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border:2px solid #030303;
+}
+
+h1 {
+    margin: 10px 0;
+    text-align: center;
+    color:#050505;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+p{
+    text-align:center;
+    color:#161515;
+    margin: 5px 0;
+}
+section {
+    margin: 20px 0;
+    padding: 15px;
+    background: linear-gradient(to bottom, #c8aac9, #be7fca);
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 20px;
+}
+
+h2 {
+    color: #030303;
+    font-size: 20px;
+    border-bottom: 2px solid #070707;
+    padding-bottom: 5px;
+    margin: 10px 0;
+    text-align: center;
+    background-color: #dfdedf;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.job, .education-item {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+header p{
+    font-size:20px;
+}
+
+header i{
+    color:#000000;
+    margin-right: 10px;
+    font-size: 20px;
+}
+h3{
+    color:#333;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align:left;
+    font-style: italic;
+}
